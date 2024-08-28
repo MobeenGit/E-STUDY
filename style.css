@@ -1,0 +1,150 @@
+.container{
+    text-align: center;
+  }
+.bg{background: rgb(0,211,255);
+  background: radial-gradient(circle, rgba(0,211,255,1) 0%, rgba(136,218,227,1) 40%, rgba(44,71,74,1) 100%)
+
+}
+.grad1{
+  background: rgb(255,0,0);
+  background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 48%, rgba(129,126,125,0.99781162464986) 100%);
+  }
+
+.grad2{
+background: rgb(0,78,255);
+background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, rgba(227,136,136,1) 44%, rgba(101,168,166,1) 63%, rgba(44,48,74,1) 100%);
+  }
+.grad3{
+  background: rgb(112,255,0);
+  background: radial-gradient(circle, rgba(112,255,0,1) 0%, rgba(165,227,136,1) 40%, rgba(74,44,74,1) 100%);
+  }
+
+.returnbutton {background-color: rgb(143, 143, 143);
+    color: black;
+    border: none;
+    height: 30px;
+    width:  80px;
+    border-color: black;
+    border-style:   solid;
+    margin-left: 10px;
+    cursor:pointer;
+}
+
+.circlebutton {
+    background-color: rgb(255, 48, 48);
+    color: black;
+    border: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border-color: black;
+    border-style:   solid;
+    margin-left: auto;
+    cursor:pointer;
+}
+
+.circlebutton2 {
+    background-color: rgb(0, 255, 229);
+    color: black;
+    border: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border-color: black;
+    border-style:   solid;
+    margin-left: auto;
+    cursor:pointer;
+}
+.circlebutton3 {
+    background-color: rgb(174, 0, 255);
+    color: black;
+    border: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border-color: black;
+    border-style:   solid;
+    margin-left: auto;
+    cursor:pointer;
+}
+
+
+
+
+.button-1 {
+  align-items: center;
+  background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Codec cold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 54px;
+  letter-spacing: .4px;
+  max-width: 100%;
+}
+
+.button-2 {
+    align-items: center;
+    background-image: linear-gradient(135deg, #0528f0 40%, #4dfcfc);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Codec cold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 54px;
+    letter-spacing: .4px;
+    max-width: 100%;
+  }
+  .button-3 {
+    align-items: center;
+    background-image: linear-gradient(135deg, #7800f8 40%, #e791ff);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Codec cold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 54px;
+    letter-spacing: .4px;
+    max-width: 100%;
+  }
+
+  .button-4 {
+    align-items: center;
+    background-image: linear-gradient(135deg, #b00000 40%, #ffa5a5);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Codec cold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 54px;
+    letter-spacing: .4px;
+    max-width: 100%;
+  }
+  .button-5 {
+    align-items: center;
+    background-image: linear-gradient(135deg, #05f02c 40%, #396100);
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Codec cold",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 54px;
+    letter-spacing: .4px;
+    max-width: 100%;
+  }
