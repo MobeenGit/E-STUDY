@@ -162,6 +162,8 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
 .dropdown-content {
   display: none;
   position: absolute;
+  border: #0528f0;
+  border-radius: 20px;
   background: rgb(0,211,255);
   background: radial-gradient(circle, rgba(0,211,255,1) 0%, rgba(136,218,227,1) 40%, rgba(44,71,74,1) 100%);
 
@@ -174,6 +176,8 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
+  border: #b00000;
+  border-radius: 20px;
   text-decoration: none;
   display: block;
 }
