@@ -26,6 +26,7 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
     width:  80px;
     border-color: black;
     border-style:   solid;
+    border-radius: 20px;
     margin-left: 10px;
     cursor:pointer;
 }
