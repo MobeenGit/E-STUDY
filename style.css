@@ -157,6 +157,8 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
 .dropdown {
   position: relative;
   display: inline-block;
+  margin: auto;
+  margin-bottom: 5%;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -194,4 +196,62 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+}
+
+.flashcard {
+  background: rgba(255, 0, 0, 0.633);
+  border: 2px solid #000000;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between elements */
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: auto;
+    text-align: center;
+    position: relative;
+    margin: auto;
+  
+}
+
+.flashcard2 {
+  background: rgba(0, 30, 255, 0.442);
+  border: 2px solid #000000;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between elements */
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: auto;
+    text-align: center;
+    position: relative;
+    margin: auto;
+  
+}
+
+.flashcard3 {
+  background: rgba(204, 0, 255, 0.542);
+  border: 2px solid #000000;
+    border-radius: 10px;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute space between elements */
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: auto;
+    text-align: center;
+    position: relative;
+    margin: auto;
+  
+}
+.flashcards-container {
+  display: flex; /* Use flexbox to align flashcards horizontally */
+  gap: 20px; /* Add space between flashcards */
 }
