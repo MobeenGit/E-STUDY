@@ -382,12 +382,12 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
   transition-duration: 1s;
 }
 
-.pyqboxphy.pyqbox:hover{
+.pyqboxphy:hover{
   transform: scale(1.2);
   transition-duration: 1s;
 }
 
-.pyqboxmath.pyqbox:hover{
+.pyqboxmath:hover{
   transform: scale(1.2);
   transition-duration: 1s;
 }
