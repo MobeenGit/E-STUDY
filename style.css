@@ -9,7 +9,7 @@
   background: rgb(255,0,0);
   background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(255,0,0,1) 48%, rgba(129,126,125,0.99781162464986) 100%);
   }
-
+  
 .grad2{
 background: rgb(0,78,255);
 background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, rgba(227,136,136,1) 44%, rgba(101,168,166,1) 63%, rgba(44,48,74,1) 100%);
@@ -261,7 +261,7 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
 
 
 
-/* PYQ */
+/* ###########################################PAST YEAR QUESTIONS######################################################################## */
 .pyqbox{
   background: rgba(255, 0, 0, 0.633);
   border: 2px solid #000000;
