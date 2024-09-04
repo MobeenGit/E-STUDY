@@ -212,8 +212,14 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
 }
 
 .flashcard {
-  background: rgba(255, 0, 0, 0.633);
-  border: 2px solid #000000;
+    background: rgba(255, 0, 0, 0.633);
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzyW0osKIYRKxYgTUHeVz9-NpT7ljPC-TH2A&s");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    border: 2px solid #000000;
     border-radius: 10px;
     width: 250px;
     height: 150px;
@@ -230,8 +236,14 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
 }
 
 .flashcard2 {
-  background: rgba(0, 30, 255, 0.442);
-  border: 2px solid #000000;
+    background: rgba(0, 30, 255, 0.442);
+    border: 2px solid #000000;
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvkyf-6XUJwbGVYRffCkv8EiAcq4iUp_hPgA&s");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
     border-radius: 10px;
     width: 250px;
     height: 150px;
@@ -248,8 +260,14 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
 }
 
 .flashcard3 {
-  background: rgba(204, 0, 255, 0.542);
-  border: 2px solid #000000;
+    background: rgba(204, 0, 255, 0.542);
+    border: 2px solid #000000;
+
+    background-image: url("https://www.open.edu.au/-/media/blog/2023/03-march/careers-in-maths.jpg?h=477&iar=0&w=715&rev=47f96a32d6b4449993d9b33e5d8e7f05&hash=3607886828F85C66407623C78AC15EB9");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+      
     border-radius: 10px;
     width: 250px;
     height: 150px;
@@ -269,7 +287,22 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
   gap: 20px; /* Add space between flashcards */
 }
 
-
+.livebg {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
 
 
 
@@ -391,4 +424,10 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
   transform: scale(1.2);
   transition-duration: 1s;
 }
+
+
+
+
+
+
 
