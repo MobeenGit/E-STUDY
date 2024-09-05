@@ -123,19 +123,7 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
   letter-spacing: .4px;
   max-width: 100%;
 }
-.flashcard:hover{
-  transform: scale(1.2);
-  transition-duration: 1s;
-}
 
-.flashcard2:hover{
-  transform: scale(1.2);
-  transition-duration: 1s;
-}
-.flashcard3:hover{
-  transform: scale(1.2);
-  transition-duration: 1s;
-}
 .dropbtnphy {
   align-items: center;
   background-image: linear-gradient(135deg, #0528f0 40%, #4dfcfc);
@@ -282,6 +270,49 @@ background: linear-gradient(90deg, rgba(0,78,255,1) 0%, rgba(17,216,248,1) 21%, 
     margin: auto;
   
 }
+
+.flashcard4 {
+  background: rgba(204, 0, 255, 0.542);
+  border: 2px solid #000000;
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhw2y89p1EKLzIV9iEjCOW8rZCQmg5VJy25A&s");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    
+  border-radius: 10px;
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute space between elements */
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: auto;
+  text-align: center;
+  position: relative;
+  margin: auto;
+
+}
+
+.flashcard:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+
+.flashcard2:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.flashcard3:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+.flashcard4:hover{
+  transform: scale(1.2);
+  transition-duration: 1s;
+}
+
 .flashcards-container {
   display: flex; /* Use flexbox to align flashcards horizontally */
   gap: 20px; /* Add space between flashcards */
