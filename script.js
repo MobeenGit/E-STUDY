@@ -32,4 +32,14 @@ function submitQuiz() {
     // Display the result
     var resultText = `You got ${score} out of ${totalQuestions} correct!`;
     document.getElementById('result').innerText = resultText;
+    if (score < 3) {
+        document.getElementById("nextQuizButton").disabled = true;
+        document.getElementById("message").innerHTML = "You need a score of at least 3 to proceed.";
+    } else {
+        document.getElementById("nextQuizButton").disabled = false;
+        document.getElementById("message").innerHTML = "Congratulations! You can proceed to the next quiz.";
+    }
+
+
+
 }

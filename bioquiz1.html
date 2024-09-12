@@ -6,15 +6,17 @@
     <title>Quiz</title>
     <link rel="stylesheet" href="quizstyle.css">
 </head>
+<div class="vertical-container"><h1>Biology Quiz 1</h1>
 <body>
+    
     <div class="quiz-container">
-        <h1>Bio Quiz Chapter 1</h1>
         <form id="quizForm">
+           
             <div class="question">
                 <p>Which name is given to a group of individuals that can reproduce to produce fertile offspring?</p>
-                <input type="radio" name="q1" value="A genus"> A genus <br>
+                <input type="radio" name="q1" value="wrong"> A genus <br>
                 <input type="radio" name="q1" value="A species"> A species#<br>
-                <input type="radio" name="q1" value="A Kingdom"> A kingdom<br>
+                <input type="radio" name="q1" value="wrong"> A kingdom<br>
             </div>
             <div class="question">
                 <p>What is the correct way of naming organisms using the binomial system?</p>
@@ -41,11 +43,15 @@
                 <input type="radio" name="q5" value="vertebrates">vertebrates<br>
             </div>
             <button type="button" onclick="submitQuiz()">Submit</button>
+            <a href="C:\Users\HP\Desktop\CODING\quizbio.html">
+                <button>Back</button> 
+            </a>
+            <a href="C:\Users\HP\Desktop\CODING\bioquiz2.html">  <button id="nextQuizButton" onclick="alert('Starting the next quiz...')">Next Quiz</button></a></div>
+            </html>
         </form>
         <p id="result"></p>
     </div>
+</div>
     <script src="script.js"></script>
 </body>
-<a href="C:\Users\HP\Desktop\CODING\quizbio.html">
-    <button class="returnbutton">Back</button></a>
-</html>
+<div>
