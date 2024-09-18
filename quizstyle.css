@@ -24,30 +24,35 @@ body{
     justify-content: space-around; /* Distribute items evenly (optional) */
     height: 300px;            /* Set height (optional) */
 }
-button{
-    display: block;
-    margin: 0 auto;
-    padding: 10px 20px;
+button {
     background-color: #3498db;
     color: white;
     border: none;
+    padding: 10px 20px; /* Add padding for better appearance */
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 button:hover {
     background-color: #2980b9;
 }
-.returnbutton {background-color: rgb(143, 143, 143);
-    color: black;
+
+a {
+    text-decoration: none;
+}
+
+a button {
+    margin-left: 10px; /* Spacing between buttons */
+}
+
+.returnbutton {background-color: #3498db;
+    color: white;
     border: none;
-    height: 30px;
-    width:  80px;
-    border-color: black;
-    border-style:   solid;
-    border-radius: 20px;
-    margin-left: 10px;
-    cursor:pointer;
+    padding: 10px 20px; /* Add padding for better appearance */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .livebg {
@@ -83,3 +88,9 @@ button:hover {
         background-position: 0% 50%;
     }
   }
+
+  .buttonallignment {
+    display: flex;
+    justify-content: space-between; /* Evenly space the buttons */
+    margin-top: 20px; /* Add spacing above the buttons */
+}
