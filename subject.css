@@ -10,11 +10,10 @@ body{
 
 .container {
     position: relative;
-    width: 100vw; 
+    width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow-y: auto; /* Allow vertical scrolling */
 }
-
 .bubbles{
     position: relative;
     display: flex;
@@ -56,48 +55,11 @@ body{
 }
 
 
-
-
-.option {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 20px;
-    transition: transform 0.3s ease;
-}
-
-.option:hover {
-    transform: translateY(-10px);
-    background-color: #f9f9f9;
-}
-
-.option h2 {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.option p {
-    color: #777;
-    margin-bottom: 20px;
-}
-
-.option a {
-    text-decoration: none;
-    color: #3498db;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-.option a:hover {
-    color: #1d70b8;
-}
-
 .livebg {
     background: linear-gradient(-45deg, #000000, #313131, #5e5e5e, #3b3939);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
+    z-index: -2;
   }
   @keyframes gradient {
     0% {
@@ -110,3 +72,48 @@ body{
         background-position: 0% 50%;
     }
   }
+
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    height: 80vh; /* Set a height for scrolling */
+    overflow-y: auto; /* Enable scrolling for the cards */
+    position: relative;
+    z-index: 1; /* Keep the cards above the bubbles */
+    margin-top: 100px; /* Space from top */
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+    height: fit-content;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: #f9f9f9;
+}
+.card h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card p {
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.card a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
