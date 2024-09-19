@@ -2,6 +2,13 @@ function submitQuiz() {
     var score = 0;
     var totalQuestions = 5;
 
+    var answers = {
+        "q1": "A species",
+        "q2": "Ranunculus acris",
+        "q3": "sensitivity",
+        "q4": "excretion",
+        "q5": "carnivores"
+    };
     // Question 1
     var q1 = document.querySelector('input[name="q1"]:checked');
     if (q1 && q1.value === 'A species') {
