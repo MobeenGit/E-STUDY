@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="quiz-container">
-        <h1>Bio Quiz Chapter 1</h1>
+        <h1>Bio Quiz Chapter 3</h1>
         <form id="quizForm">
             <div class="question">
                 <p>What is the term for different forms of a gene?</p>
@@ -40,12 +40,21 @@
                 <input type="radio" name="q5" value="Gregor Mendel">Gregor Mendel<br>
                 <input type="radio" name="q5" value="James Watson">James Watson<br>
             </div>
-            <button type="button" onclick="submitQuiz()">Submit</button>
-        </form>
-        <p id="result"></p>
+            <div class="buttonallignment">
+                <button type="button" onclick="submitQuiz()">Submit</button>
+                <a href="bioquiz2.html">
+                    <button type="button">Back</button> 
+                </a>
+                <p id="result"></p>   
+                <a href="bioquiz4.html"> 
+                    <button  type="button" id="nextQuizButton" disabled >Next Quiz</button>
+                </a>
+                </div>
+            </form>
+          
+        </div>
     </div>
+    
+    </body>
     <script src="bioquiz3.js"></script>
-</body>
-<a href="C:\Users\HP\Desktop\CODING\quizbio.html">
-    <button class="returnbutton">Back</button></a>
     </html>
