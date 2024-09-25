@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIE IGCSE ICT Revision Notes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: #003366;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .section-title {
+            background-color: #ddd;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        .sub-section {
+            display: none;
+            margin-left: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        ul li a {
+            text-decoration: none;
+            color: #003366;
+            display: block;
+            padding: 5px;
+        }
+        ul li a:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CIE IGCSE ICT Revision Notes</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <p>Score maximum marks in your exams with our CIE IGCSE ICT revision notes. Written by teachers and examiners, they'll help you to fill knowledge gaps, understand complex concepts, and boost your exam confidence...</p>
+
+        <!-- Topic 1 -->
+        <div class="section-title" onclick="toggleSection(1)">
+            <span>1. Types & Components of Computer Systems</span>
+            <span class="arrow">&#9660;</span>
+        </div>
+        <div id="section1" class="sub-section">
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1THIRXanI85zJV8Y5F5JxUm8LVS-aVexc/view" target="_blank">1.1 Types & Components of Computer Systems</a></li>
+            </ul>
+        </div>
+
+        <!-- Topic 2 -->
+        <div class="section-title" onclick="toggleSection(2)">
+            <span>2. Input & Output Devices</span>
+            <span class="arrow">&#9660;</span>
+        </div>
+        <div id="section2" class="sub-section">
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1Tm41Q01Em_b9tvXqexl_aON3DPVq7btu/view" target="_blank">2.1 Input & Output Devices</a></li>
+            </ul>
+        </div>
+
+        <!-- Topic 3 -->
+        <div class="section-title" onclick="toggleSection(3)">
+            <span>3. Storage Devices & Media</span>
+            <span class="arrow">&#9660;</span>
+        </div>
+        <div id="section3" class="sub-section">
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1WCYm2RvZWjhd4dtgGcmGHF1rsAn2hPmw/view" target="_blank">3.1 Storage Devices & Media</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 IGCSE ICT Revision</p>
+    </footer>
+
+    <script>
+        function toggleSection(sectionId) {
+            var section = document.getElementById('section' + sectionId);
+            var arrow = section.previousElementSibling.querySelector('.arrow');
+            if (section.style.display === "none" || section.style.display === "") {
+                section.style.display = "block";
+                arrow.innerHTML = "&#9660;";
+            } else {
+                section.style.display = "none";
+                arrow.innerHTML = "&#9654;";
+            }
+        }
+    </script>
+</body>
+</html>

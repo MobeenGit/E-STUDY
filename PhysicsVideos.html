@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIE IGCSE Physics Reference Videos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: #003366;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .button-row {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .center-button {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .large-button {
+            background-color: #003366;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+            flex-basis: 45%;
+            position: relative;
+        }
+        .large-button:hover {
+            background-color: #005599;
+        }
+        .large-button::after {
+            content: attr(data-intro);
+            position: absolute;
+            bottom: 120%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #003366;
+            color: white;
+            padding: 8px;
+            border-radius: 5px;
+            white-space: nowrap;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease;
+            z-index: 1;
+        }
+        .large-button:hover::after {
+            opacity: 1;
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CIE IGCSE Physics Reference Videos</h1>
+        </div>
+    </header>
+    <div class="container">
+        <p>Score maximum marks in your exams with our CIE IGCSE Physics reference videos. Recorded by teachers and examiners, they'll help you to fill knowledge gaps, understand complex concepts, and boost your exam confidence.</p>
+        
+        <div class="button-container">
+            <div class="center-button">
+                <button class="large-button" data-intro="Explains about motion, forces and energy" style="flex-basis: 30%;" onclick="window.location.href='PhysicsVideosC1.html'">Chapter 1   -   Motion, Forces & Energy</button>
+            </div>
+            <div class="center-button">
+                <button class="large-button" data-intro="Explains about thermal physics" style="flex-basis: 30%;" onclick="window.location.href='PhysicsVideosC2.html'">Chapter 2   -   Thermal Physics</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
